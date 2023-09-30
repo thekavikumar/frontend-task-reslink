@@ -7,3 +7,12 @@ body {
   background: var(--Primary-Black, #1f2129);
   font-family: "Poppins", sans-serif;
 }
+
+.div_hero-blur-bg {
+  transform: rotate(-14.015deg);
+  filter: blur(200px);
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 100vw;
+}
